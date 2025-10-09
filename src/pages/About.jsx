@@ -81,12 +81,12 @@ export default function About() {
           <p>
             <strong>LinkedIn:</strong>{" "}
             <a 
-              href="https://linkedin.com/in/lekhashree-h-j-61287820a/" 
+              href="https://www.linkedin.com/in/lekhashree-jayarama-61287820a/" 
               target="_blank" 
               rel="noreferrer"
               className="text-blue-600 hover:underline"
             >
-              linkedin.com/in/lekhashree-h-j-61287820a/
+              <linkedin className="com"></linkedin>
             </a>
           </p>
           <p>

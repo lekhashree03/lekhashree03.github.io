@@ -86,7 +86,7 @@ export default function About() {
               rel="noreferrer"
               className="text-blue-600 hover:underline"
             >
-              <linkedin className="com"></linkedin>
+              linkedin.com/in/lekhashree-jayarama-61287820a/
             </a>
           </p>
           <p>

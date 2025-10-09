@@ -61,34 +61,15 @@ export default function Home() {
         <div className="grid gap-4 md:grid-cols-2">
           <Card>
             <div className="p-4 space-y-2">
-              <h3 className="text-lg font-medium">University of Arizona</h3>
-              <p className="italic">
-                MS in Data Science
-              </p>
-              <ul className="list-disc ml-6">
-                <li>GPA: 4.0/4.0</li>
-                <li>Coursework: SQL/NoSQL, Python, Data Mining, DBMS, Data Visualization</li>
-                <li></li>
-                <li>
-                  
-                </li>
-              </ul>
-              <p className="text-sm text-gray-600 mt-2">Sep 2024 – May 2026</p>
+              <h3 className="text-lg font-medium">University of Arizona, MS in Data Science, GPA: 4.0/4.0</h3>
+              <p className="text-sm text-gray-600">Tucson, AZ, USA | Aug 2024 - Dec 2025</p>
             </div>
           </Card>
 
           <Card>
             <div className="p-4 space-y-2">
-              <h3 className="text-lg font-medium">M S Ramaiah Institute of Technology, Bangalore</h3>
-              <p className="italic">
-                BE in Electronics and Communication
-              </p>
-              <ul className="list-disc ml-6">
-                <li>GPA: 3.75/4.0</li>
-                <li>Coursework: Machine Learning, Data Science, Embedded System, VLSI, Operating System</li>
-                <li></li>
-              </ul>
-              <p className="text-sm text-gray-600 mt-2">Jun 2019  May 2023</p>
+              <h3 className="text-lg font-medium">MS Ramaiah Institute of Technology, BE in Electronics, GPA: 3.75/4.0</h3>
+              <p className="text-sm text-gray-600">Bangalore, KA, India | Jul 2019 - May 2023</p>
             </div>
           </Card>
         </div>

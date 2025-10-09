@@ -124,7 +124,7 @@ export default function Home() {
           <a href="https://github.com/lekhashree03" target="_blank" rel="noreferrer">
             <img src={`${import.meta.env.BASE_URL}icons/github_logo.png`} alt="GitHub" className="w-6 h-6 hover:opacity-80" />
           </a>
-          <a href="https://linkedin.com/in/lekhashree-h-j-61287820a/" target="_blank" rel="noreferrer">
+          <a href="https://www.linkedin.com/in/lekhashree-jayarama-61287820a/" target="_blank" rel="noreferrer">
             <img src={`${import.meta.env.BASE_URL}icons/linkedin_logo.png`} alt="LinkedIn" className="w-6 h-6 hover:opacity-80" />
           </a>
           <a href="mailto:lekhashreehj@gmail.com">

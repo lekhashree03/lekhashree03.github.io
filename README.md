@@ -49,6 +49,23 @@ The `preview` command serves the built `dist/` locally so you can validate routi
 - If assets 404 after deployment, confirm the GitHub repository name matches the path and the `base` in `vite.config.js` is correct. The workflow sets `GITHUB_REPOSITORY` automatically during CI.
 - If the Action fails, check the workflow logs under Actions → Build and Deploy to GitHub Pages.
 
+### 403 when pushing from Actions (permission denied to github-actions[bot])
+
+If you see an error like:
+
+```
+remote: Permission to <owner>/<repo>.git denied to github-actions[bot].
+fatal: unable to access 'https://github.com/<owner>/<repo>.git/': The requested URL returned error: 403
+```
+
+This indicates the `GITHUB_TOKEN` didn't have permission to push to the repository. Remedies:
+
+1. Ensure the workflow declares write permissions (this repo's workflow already sets `permissions: contents: write`).
+2. If you're in an organization that restricts the default `GITHUB_TOKEN`, create a Personal Access Token (PAT) with `repo` scope and add it to the repository secrets (e.g. name it `PAT`). Then update the workflow to use that secret by replacing `github_token: ${{ secrets.GITHUB_TOKEN }}` with `github_token: ${{ secrets.PAT }}` in the deploy step.
+3. Alternatively, give the GitHub Actions app the required permission in the repository settings or allow `GITHUB_TOKEN` write permissions at the org level (if you control the org settings).
+
+If you want, paste the full Actions log here and I will point to the exact line to change or prepare a small workflow variant that uses a PAT secret.
+
 ## Notes
 - The workflow uses the default `GITHUB_TOKEN` so no extra secrets are required.
 - If you'd prefer `gh-pages` npm package or a different deployment strategy, you can adapt the workflow accordingly.

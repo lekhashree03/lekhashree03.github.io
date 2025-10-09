@@ -4,6 +4,10 @@ on:
   push:
     branches: [ main, master ]
 
+# Give the workflow explicit permissions to push. Some orgs restrict the default GITHUB_TOKEN.
+permissions:
+  contents: write
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -27,7 +31,9 @@ jobs:
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4
         with:
+          # The action uses GITHUB_TOKEN by default. If your org restricts write access for GITHUB_TOKEN,
+          # create a Personal Access Token (PAT) with `repo` scope and set it as a secret (e.g. PAT or ACTIONS_DEPLOY_KEY)
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
-          # keep history small
           keep_files: false
+

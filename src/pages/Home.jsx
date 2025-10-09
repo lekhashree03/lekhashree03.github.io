@@ -60,16 +60,20 @@ export default function Home() {
         </h2>
         <div className="grid gap-4 md:grid-cols-2">
           <Card>
-            <div className="p-4 space-y-2">
-              <h3 className="text-lg font-medium">University of Arizona, MS in Data Science, GPA: 4.0/4.0</h3>
-              <p className="text-sm text-gray-600">Tucson, AZ, USA | Aug 2024 - Dec 2025</p>
+            <div className="p-4 space-y-1">
+              <h3 className="text-lg font-semibold">University of Arizona</h3>
+              <p className="italic">MS in Data Science</p>
+              <p className="text-sm font-medium">GPA: 4.0 / 4.0</p>
+              <p className="text-sm text-gray-600">Tucson, AZ, USA • Aug 2024 - Dec 2025</p>
             </div>
           </Card>
 
           <Card>
-            <div className="p-4 space-y-2">
-              <h3 className="text-lg font-medium">MS Ramaiah Institute of Technology, BE in Electronics, GPA: 3.75/4.0</h3>
-              <p className="text-sm text-gray-600">Bangalore, KA, India | Jul 2019 - May 2023</p>
+            <div className="p-4 space-y-1">
+              <h3 className="text-lg font-semibold">MS Ramaiah Institute of Technology</h3>
+              <p className="italic">BE in Electronics</p>
+              <p className="text-sm font-medium">GPA: 3.75 / 4.0</p>
+              <p className="text-sm text-gray-600">Bangalore, KA, India • Jul 2019 - May 2023</p>
             </div>
           </Card>
         </div>

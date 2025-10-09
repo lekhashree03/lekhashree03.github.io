@@ -4,7 +4,7 @@ import { Card } from "../components/card.jsx";
 export default function Experience() {
   const experiences = [
     {
-      logo: "/logos/Emergence_logo.JPG",
+      logo: `${import.meta.env.BASE_URL}logos/Myline_foundry.jpeg`,
       company: "MYELIN FOUNDRY",
       location: "Bangalore, India",
       role: "AI Engineer",
@@ -18,7 +18,7 @@ export default function Experience() {
         "Python, Computer Vision, Machine Learning, Data Pipelines, AI Applications.",
     },
     {
-      logo: "/logos/incedo_logo.JPG",
+      logo: `${import.meta.env.BASE_URL}logos/mitacs_logo.jpeg`,
       company: "MITACS",
       location: "Toronto, Canada",
       role: "AI Research and Development Intern",

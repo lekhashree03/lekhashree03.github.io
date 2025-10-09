@@ -41,20 +41,44 @@ export default function Skills() {
 
   const certifications = [
     {
-      name: "Machine Learning Specialization",
-      url: "#",
+      name: "Getting Started with Azure DevOps Boards",
+      url: "https://www.coursera.org/account/accomplishments/certificate/ZNDW3K7KJSZP",
     },
     {
-      name: "Deep Learning Specialization",
-      url: "#",
+      name: "Google Ads for Beginners",
+      url: "https://www.coursera.org/account/accomplishments/certificate/MZPBLYQ7N4RB",
     },
     {
-      name: "Data Science Professional Certificate",
-      url: "#",
+      name: "Introduction to Self-Driving Cars",
+      url: "https://www.coursera.org/account/accomplishments/certificate/N2G28MPLTN3N",
     },
     {
-      name: "AWS Certified Cloud Practitioner",
-      url: "#",
+      name: "Machine Learning",
+      url: "https://www.coursera.org/account/accomplishments/certificate/3WGSR39XBK4Z",
+    },
+    {
+      name: "Understanding Research Methods",
+      url: "https://www.coursera.org/account/accomplishments/certificate/UMWVMTFPCHL7",
+    },
+    {
+      name: "IBM: Introduction to Artificial Intelligence",
+      url: "https://coursera.org/share/e9545bfc107f2fdd89d6db9e812b9ec8",
+    },
+    {
+      name: "Introduction to Basic Game Development using Scratch",
+      url: "https://www.coursera.org/account/accomplishments/certificate/72WMJDW6XQUN",
+    },
+    {
+      name: "Programming Foundations with JavaScript, HTML and CSS",
+      url: "https://www.coursera.org/account/accomplishments/certificate/T7WWJNTTMNWH",
+    },
+    {
+      name: "MATLAB Onramp",
+      url: "https://matlabacademy.mathworks.com/details/matlab-onramp/gettingstarted",
+    },
+    {
+      name: "C++",
+      url: "https://www.sololearn.com/Certificate/1051-19119008/jpg/",
     },
   ];
 

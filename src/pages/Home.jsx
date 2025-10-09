@@ -35,7 +35,7 @@ export default function Home() {
           {/* Animated name */}
           <Typewriter text="Lekhashree Honnavalli Jayarama" speed={120} />
           <p className="text-xl mb-4">
-            MS in Data Science (expected May 2026)
+            MS in Data Science
           </p>
           <p className="italic mb-6">Detail-oriented Data Science & AI Engineer</p>
 
@@ -122,19 +122,19 @@ export default function Home() {
         {/* Social Icons */}
         <div className="flex space-x-6">
           <a href="https://github.com/lekhashree03" target="_blank" rel="noreferrer">
-            <img src="/icons/github_logo.png" alt="GitHub" className="w-6 h-6 hover:opacity-80" />
+            <img src={`${import.meta.env.BASE_URL}icons/github_logo.png`} alt="GitHub" className="w-6 h-6 hover:opacity-80" />
           </a>
           <a href="https://linkedin.com/in/lekhashree-h-j-61287820a/" target="_blank" rel="noreferrer">
-            <img src="/icons/linkedin_logo.png" alt="LinkedIn" className="w-6 h-6 hover:opacity-80" />
+            <img src={`${import.meta.env.BASE_URL}icons/linkedin_logo.png`} alt="LinkedIn" className="w-6 h-6 hover:opacity-80" />
           </a>
           <a href="mailto:lekhashreehj@gmail.com">
-            <img src="/icons/outlook_logo.jfif" alt="Email" className="w-6 h-6 hover:opacity-80" />
+            <img src={`${import.meta.env.BASE_URL}icons/outlook_logo.jfif`} alt="Email" className="w-6 h-6 hover:opacity-80" />
           </a>
         </div>
         {/* Contact */}
         <div className="flex space-x-6 items-center text-blue-600">
           <a href="mailto:lekhashreehj@gmail.com" className="hover:underline">lekhashreehj@gmail.com</a>
-          <span className="text-gray-600">Tucson, AZ</span>
+          <span className="text-gray-600">Tucson, AZ, USA</span>
         </div>
       </div>
     </div>

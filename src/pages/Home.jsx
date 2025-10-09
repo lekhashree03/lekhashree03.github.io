@@ -23,12 +23,12 @@ export default function Home() {
       {/* Hero with MSU background */}
       <div
         className="relative bg-cover bg-center h-96"
-        style={{ backgroundImage: "url('/clg.jpg')" }}
+        style={{ backgroundImage: `url('${import.meta.env.BASE_URL}clg.jpg')` }}
       >
         <div className="absolute inset-0 bg-black/40" />
         <div className="relative flex flex-col items-center justify-center h-full text-white">
           <img
-            src="/profile.jpg"
+            src={`${import.meta.env.BASE_URL}profile.jpg`}
             alt="Lekhashree"
             className="w-40 h-40 rounded-full mb-4 ring-4 ring-white object-cover"
           />
@@ -42,7 +42,7 @@ export default function Home() {
           {/* Download Resume button */}
           <Button asChild>
             <a
-              href="/Resume_Lekhashree.pdf"
+              href={`${import.meta.env.BASE_URL}Resume_Lekhashree.pdf`}
               download
               className="italic underline text-lg"
             >

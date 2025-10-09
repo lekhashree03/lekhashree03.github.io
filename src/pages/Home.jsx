@@ -23,27 +23,26 @@ export default function Home() {
       {/* Hero with MSU background */}
       <div
         className="relative bg-cover bg-center h-96"
-        style={{ backgroundImage: "url('/msu-bg.jfif')" }}
+        style={{ backgroundImage: "url('/clg.jpg')" }}
       >
         <div className="absolute inset-0 bg-black/40" />
         <div className="relative flex flex-col items-center justify-center h-full text-white">
           <img
-            src="/profile.jpeg"
+            src="/profile.jpg"
             alt="Lekhashree"
             className="w-40 h-40 rounded-full mb-4 ring-4 ring-white object-cover"
           />
           {/* Animated name */}
           <Typewriter text="Lekhashree Honnavalli Jayarama" speed={120} />
           <p className="text-xl mb-4">
-            MS in Data Science @ University of Arizona
+            MS in Data Science (expected May 2026)
           </p>
-          <p className="italic mb-6">
-            “Detail-oriented Data Science and AI Engineer”
-          </p>
+          <p className="italic mb-6">Detail-oriented Data Science & AI Engineer</p>
+
           {/* Download Resume button */}
           <Button asChild>
             <a
-              href="/Resume_NandanKeshavHegde_MSDS_DSAI_Batch_2026.pdf"
+              href="/Resume_Lekhashree.pdf"
               download
               className="italic underline text-lg"
             >
@@ -101,7 +100,36 @@ export default function Home() {
           <span role="img" aria-label="book" className="mr-2">📖</span>
           Publications & Awards
         </h2>
-        <div className="max-w-4xl mx-auto space-y-6">`n          <div>`n            <h3 className="text-lg font-semibold mb-2">Publications</h3>`n            <ul className="list-disc ml-6 space-y-2 text-gray-800">`n              <li>`n                <strong>Application of Wireless Sensor Networks for Advancements in Non-Intrusive Precision Beekeeping</strong>`n                <br />`n                <span className="text-sm text-gray-600">International Conference on Data Science and Information System (ICDSIS), Oct 2022 - IEEE Xplore</span>`n              </li>`n              <li>`n                <strong>Application of machine learning and deep learning models in the supervision of apiculture</strong>`n                <br />`n                <span className="text-sm text-gray-600">International Conference on Applied Research in Engineering Sciences, Nov 2022 - ICARES</span>`n              </li>`n              <li>`n                <strong>Violence detection in drone surveillance videos</strong>`n                <br />`n                <span className="text-sm text-gray-600">International Conference on Smart Trends for Information Technology and Computer Communications, 2023 - SmartCom</span>`n              </li>`n            </ul>`n          </div>`n          <div>`n            <h3 className="text-lg font-semibold mb-2">Awards & Recognition</h3>`n            <ul className="list-disc ml-6 space-y-2 text-gray-800">`n              <li>Best Project Presentation Award for research on AI in Software Engineering from Tier 1 research group at Queens University, Canada</li>`n              <li>Best Project Award in final year project exhibition</li>`n            </ul>`n          </div>`n        </div>
+        <div className="max-w-4xl mx-auto space-y-6">
+          <div>
+            <h3 className="text-lg font-semibold mb-2">Publications</h3>
+            <ul className="list-disc ml-6 space-y-2 text-gray-800">
+              <li>
+                <strong>Application of Wireless Sensor Networks for Advancements in Non-Intrusive Precision Beekeeping</strong>
+                <br />
+                <span className="text-sm text-gray-600">International Conference on Data Science and Information System (ICDSIS), Oct 2022 - IEEE Xplore</span>
+              </li>
+              <li>
+                <strong>Application of machine learning and deep learning models in the supervision of apiculture</strong>
+                <br />
+                <span className="text-sm text-gray-600">International Conference on Applied Research in Engineering Sciences, Nov 2022 - ICARES</span>
+              </li>
+              <li>
+                <strong>Violence detection in drone surveillance videos</strong>
+                <br />
+                <span className="text-sm text-gray-600">International Conference on Smart Trends for Information Technology and Computer Communications, 2023 - SmartCom</span>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-lg font-semibold mb-2">Awards & Recognition</h3>
+            <ul className="list-disc ml-6 space-y-2 text-gray-800">
+              <li>Best Project Presentation Award for research on AI in Software Engineering from Tier 1 research group at Queens University, Canada</li>
+              <li>Best Project Award in final year project exhibition</li>
+            </ul>
+          </div>
+        </div>
       </div>
 
       {/* Footer */}
@@ -120,11 +148,8 @@ export default function Home() {
         </div>
         {/* Contact */}
         <div className="flex space-x-6 items-center text-blue-600">
-          <a href="tel:5202860980" className="hover:underline">lekhashreehj@gmail.com</a>
-          <span className="text-2xl">🌾</span>
-          <a href="https://" target="_blank" rel="noreferrer" className="hover:underline">
-            
-          </a>
+          <a href="mailto:lekhashreehj@gmail.com" className="hover:underline">lekhashreehj@gmail.com</a>
+          <span className="text-gray-600">Tucson, AZ</span>
         </div>
       </div>
     </div>

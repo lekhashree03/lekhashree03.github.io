@@ -5,34 +5,28 @@ import { Button } from "../components/button.jsx";
 export default function Projects() {
   const projects = [
     {
-      name: "Modern Application Dev 1",
-      url: "https://github.com/NANDANKESHAVHEGDE/Modern-Application-Development",
-      desc: "Grocery Store App: Server-rendered web application enabling real-time inventory management and personalized grocery recommendations.",
-      tech: ["Flask", "Python", "Jinja2", "HTML", "CSS", "JavaScript"],
+      name: "Violence Detection in Drone Surveillance Videos",
+      url: "https://github.com/lekhashree03",
+      desc: "Detect violence using drones by running neural network models on a Jetson Nano Developer Kit. Created a dataset for training and built a 3D CNN for classification.",
+      tech: ["3D CNN", "Deep Learning", "Computer Vision", "Jetson Nano", "Python"],
     },
     {
-      name: "Modern Application Dev 2",
-      url: "https://github.com/NANDANKESHAVHEGDE/Modern-Application-Development",
-      desc: "Kanban Board: Interactive task-tracking dashboard with real-time updates and user authentication.",
-      tech: ["Flask", "Python", "Socket.IO", "Tailwind CSS", "Vue.js"],
+      name: "Non-Intrusive Apiary Management System using IoT and ML",
+      url: "https://github.com/lekhashree03",
+      desc: "IoT-based beekeeping solution with sensors monitoring temperature, humidity, and weight. Deep learning models analyze comb images to predict honey, pollen, and empty cells percentage.",
+      tech: ["IoT", "Machine Learning", "Deep Learning", "Cloud Services", "Python"],
     },
     {
-      name: "CMSE830 Capstone 1",
-      url: "https://github.com/NANDANKESHAVHEGDE/MSU_CMSE830_Capstone1",
-      desc: "NLP Pipeline & Predictive Analytics: Built end-to-end text processing and forecasting demos in Jupyter.",
-      tech: ["Python", "Jupyter", "pandas", "scikit-learn"],
+      name: "Walmart Sales Data Analysis",
+      url: "https://github.com/lekhashree03",
+      desc: "Analyzed sales trends using MySQL and Tableau to deliver insights informing business strategies and improving customer engagement.",
+      tech: ["MySQL", "Tableau", "Data Analysis", "SQL"],
     },
     {
-      name: "CMSE830 Capstone 2",
-      url: "https://github.com/NANDANKESHAVHEGDE/MSU_CMSE830_Capstone2",
-      desc: "Recipe Prediction & Generation: Designed an NLG pipeline for customized recipe creation based on user inputs.",
-      tech: ["Python", "NLTK", "TensorFlow", "Transformers"],
-    },
-    {
-      name: "STT810 Capstone",
-      url: "https://github.com/NANDANKESHAVHEGDE/MSU_STT810_Capstone",
-      desc: "Time Series Forecasting: Developed statistical models for supply chain demand prediction.",
-      tech: ["Python", "statsmodels", "pandas", "matplotlib"],
+      name: "Nutrition Data Analysis using EDA",
+      url: "https://github.com/lekhashree03",
+      desc: "Employed EDA techniques in Python and SQL for personalized dietary recommendations based on meal tracking, enhancing client health outcomes.",
+      tech: ["Python", "SQL", "EDA", "Data Analysis", "pandas"],
     },
   ];
 
@@ -42,7 +36,7 @@ export default function Projects() {
       <header className="mb-12 text-center">
         <h2 className="text-5xl font-extrabold inline-flex items-center space-x-3">
           <span role="img" aria-label="capstone">🎓</span>
-          <span>Capstone Projects</span>
+          <span>Projects</span>
         </h2>
       </header>
 

@@ -6,25 +6,26 @@ export default function About() {
       {/* Page Header */}
       <header className="text-center mb-12">
         <h2 className="text-4xl font-extrabold inline-flex items-center gap-3">
-          <span role="img" aria-label="chess knight">♞</span>
-          <span>Interests & References</span>
+          <span role="img" aria-label="presentation">📊</span>
+          <span>Presentations & About</span>
         </h2>
       </header>
 
-      {/* Passions & Hobbies */}
+      {/* Conference Presentations */}
       <section className="mb-12">
         <h3 className="text-2xl font-semibold mb-4 inline-flex items-center gap-2">
-          <span role="img" aria-label="chess piece">♟️</span>
-          Passions & Hobbies
+          <span role="img" aria-label="microphone">🎤</span>
+          Conference Presentations
         </h3>
-        <ul className="list-disc ml-6 space-y-2 text-gray-800">
+        <ul className="list-disc ml-6 space-y-3 text-gray-800">
           <li>
-            Semi-professional chess player with the goal of becoming the oldest
-            Grandmaster in the next few years.
+            Presented paper on <strong>'Violence detection in drone surveillance videos'</strong> at 7th International Conference on Smart Trends for Computing and Communications, Jaipur, Rajasthan, January 2023
           </li>
           <li>
-            Tabla musician for 6 years — collaborating with expert ensembles for
-            major musical events in India.
+            Presented paper on <strong>'Application of Wireless Sensor Networks for Advancements in Non-Intrusive Precision Beekeeping'</strong> at International Conference on Data Science and Information System, July 2022
+          </li>
+          <li>
+            Presented poster on <strong>'Application of machine learning and deep learning models in the supervision of apiculture'</strong> at International Conference on Applied Research in Engineering Sciences held at Ramaiah Institute of Technology, Bengaluru, Karnataka, November 2022
           </li>
         </ul>
       </section>
@@ -58,34 +59,48 @@ export default function About() {
         </p>
       </section>
 
-      {/* References & Testimonials */}
+      {/* Contact Information */}
       <section className="space-y-4 text-gray-800">
         <h3 className="text-2xl font-semibold mb-4 inline-flex items-center gap-2">
-          <span role="img" aria-label="page">📄</span>
-          Testimonials & Recommendations
+          <span role="img" aria-label="contact">�</span>
+          Contact Information
         </h3>
-        <ul className="list-disc ml-6 space-y-2">
-          <li>
-            <a
-              href="https://drive.google.com/drive/folders/1PFTTV8j2rLYstyRjaeCsBep2qOz6ir5k"
-              target="_blank"
+        <div className="ml-6 space-y-2">
+          <p>
+            <strong>Email:</strong>{" "}
+            <a href="mailto:lekhashreehj@gmail.com" className="text-blue-600 hover:underline">
+              lekhashreehj@gmail.com
+            </a>
+          </p>
+          <p>
+            <strong>Phone:</strong>{" "}
+            <a href="tel:5202860980" className="text-blue-600 hover:underline">
+              520-286-0980
+            </a>
+          </p>
+          <p>
+            <strong>LinkedIn:</strong>{" "}
+            <a 
+              href="https://linkedin.com/in/lekhashree-h-j-61287820a/" 
+              target="_blank" 
               rel="noreferrer"
               className="text-blue-600 hover:underline"
             >
-              Academic & Professional References
+              linkedin.com/in/lekhashree-h-j-61287820a/
             </a>
-          </li>
-          <li>
-            <a
-              href="https://drive.google.com/drive/folders/1Toscnl6bQXL4rzL0rvfqOkjPpCisDPG6?usp=sharing"
-              target="_blank"
+          </p>
+          <p>
+            <strong>GitHub:</strong>{" "}
+            <a 
+              href="https://github.com/lekhashree03" 
+              target="_blank" 
               rel="noreferrer"
               className="text-blue-600 hover:underline"
             >
-              Experience Certificates
+              github.com/lekhashree03
             </a>
-          </li>
-        </ul>
+          </p>
+        </div>
       </section>
     </div>
   );

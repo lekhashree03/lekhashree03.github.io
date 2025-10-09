@@ -4,62 +4,57 @@ import { Badge } from "../components/badge.jsx";
 export default function Skills() {
   const skillCategories = [
     {
-      category: "Programming & Scripting",
-      skills: ["Python", "R", "SQL", "Bash", "JavaScript"],
+      category: "Programming Languages",
+      skills: ["Python", "R", "SQL"],
     },
     {
-      category: "Machine Learning & AI",
+      category: "Data Visualization",
+      skills: ["Plotly", "Matplotlib", "ggplot2", "Tableau", "Power BI", "Seaborn"],
+    },
+    {
+      category: "Python Libraries",
       skills: [
-        "Statistical Modeling",
-        "Time Series Analysis",
-        "Demand Forecasting",
-        "Transformers",
-        "PyTorch",
+        "NumPy",
+        "Pandas",
+        "Scikit-learn",
+        "Keras",
+        "Flask",
+        "Matplotlib",
         "TensorFlow",
+        "PySpark",
+        "PyTorch",
       ],
     },
     {
+      category: "Technologies & Frameworks",
+      skills: ["Artificial Intelligence", "Machine Learning", "Deep Learning", "NLP", "Computer Vision", "IoT"],
+    },
+    {
       category: "Cloud & Big Data",
-      skills: ["Azure Databricks", "AWS Serverless", "GCP Vertex AI", "PySpark"],
+      skills: ["AWS", "Google Cloud", "Hadoop", "Spark"],
     },
     {
-      category: "Web & Application Dev",
-      skills: ["Flask", "Vue.js", "HTML", "CSS", "Tailwind CSS"],
-    },
-    {
-      category: "Data Visualization & BI",
-      skills: ["Tableau", "Power BI", "Advanced Excel"],
-    },
-    {
-      category: "Dev Tools",
-      skills: ["Git", "Docker", "Jupyter", "VS Code"],
+      category: "Mathematics & Statistics",
+      skills: ["Linear Algebra", "Statistics", "Probability", "Calculus"],
     },
   ];
 
   const certifications = [
     {
-      name: "Applied Data Science with Python Specialization",
-      url: "https://coursera.org/verify/specialization/5E2SYYXEDQ9X",
+      name: "Machine Learning Specialization",
+      url: "#",
     },
     {
-      name: "Introduction to Data Science in Python",
-      url: "https://coursera.org/verify/CNSQ4QUDGA6Q",
+      name: "Deep Learning Specialization",
+      url: "#",
     },
     {
-      name: "Applied Plotting, Charting & Data Representation in Python",
-      url: "https://coursera.org/verify/Q4SADT8KGG3E",
+      name: "Data Science Professional Certificate",
+      url: "#",
     },
     {
-      name: "Applied Machine Learning in Python",
-      url: "https://coursera.org/verify/EC9MDWYTZX92",
-    },
-    {
-      name: "Applied Text Mining in Python",
-      url: "https://coursera.org/verify/8MTXRLL7X4GG",
-    },
-    {
-      name: "Applied Social Network Analysis in Python",
-      url: "https://coursera.org/verify/EBMWQWKHXWBK",
+      name: "AWS Certified Cloud Practitioner",
+      url: "#",
     },
   ];
 

@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function NavBar({ current, onChange }) {
-  const tabs = ["Home", "Experience", "Capstone Projects", "Skill & Certifications", "Interests & References"];
+  const tabs = ["Home", "Experience", "Projects", "Skill & Certifications", "Presentations & About"];
   return (
     <nav className="bg-white shadow-md">
       <ul className="flex justify-center space-x-8 p-4">

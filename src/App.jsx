@@ -13,9 +13,9 @@ export default function App() {
   const renderTab = () => {
     switch (currentTab) {
       case "Experience": return <Experience />;
-      case "Capstone Projects":   return <Projects />;
+      case "Projects":   return <Projects />;
       case "Skill & Certifications":     return <Skills />;
-      case "Interests & References":      return <About />;
+      case "Presentations & About":      return <About />;
       default:           return <Home />;
     }
   };

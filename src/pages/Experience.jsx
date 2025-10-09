@@ -5,63 +5,33 @@ export default function Experience() {
   const experiences = [
     {
       logo: "/logos/Emergence_logo.JPG",
-      company: "EMERGENCE AI",
-      location: "Remote",
-      role: "AI Research Intern",
-      dates: "May 2025 – Present",
+      company: "MYELIN FOUNDRY",
+      location: "Bangalore, India",
+      role: "AI Engineer",
+      dates: "Mar 2023 – Jul 2023",
       bullets: [
-        "Agent Creating Agent (ACA): Proactively collaborating with Agent Development teams to aid in research and building AI benchmarks for existing and under-development AI agents.",
-        "Agentic AI Orchestration: Designed blueprint for ACA integration into the main orchestrator that manages multiple agents for enterprise workflows and measured uplifts in orchestrator quality.",
+        "Designed and deployed machine learning models for computer vision applications, enhancing detection accuracy in low-light conditions using synthetic sensor data.",
+        "Engineered data pipelines for image stitching and 360-degree view generation, improving visual analysis for autonomous systems.",
+        "Developed AI-powered applications, delivering real-time insights into driver behavior and dashboard analytics.",
       ],
-      // no recognitions/tech stack for this one yet
-    },
-    {
-      logo: "/logos/tredence_logo.JPG",
-      company: "TREDENCE ANALYTICS SOLUTIONS PRIVATE LIMITED",
-      location: "Bengaluru, India",
-      role: "Data Science Consultant",
-      dates: "Jun 2023 – Jul 2024",
-      bullets: [
-        "Promo Optimization & Pricing Simulator (Retail): Led development of a promo optimization framework, identifying KPIs and recommending promo schedules for SKU POCs.",
-        "Promo Effectiveness Analysis (Retail): Built a detailed promotional performance model to optimize baselines and gross lift, cutting unproductive expenses by 25% and improving ROI.",
-        "Product/Item Matching (Retail): Implemented an NLP pipeline for automated product matching (65% accuracy), saving 300+ manual hours annually.",
-      ],
-      recognition:
-        "Received Coach & Captain Award for delivering a demand forecasting solution for a top U.S. convenience store client.",
       techStack:
-        "Python, PySpark, PyTorch, TensorFlow, Transformers (LLMs & SLMs), Azure Databricks.",
+        "Python, Computer Vision, Machine Learning, Data Pipelines, AI Applications.",
     },
     {
       logo: "/logos/incedo_logo.JPG",
-      company: "INCEDO TECHNOLOGY SOLUTIONS LIMITED",
-      location: "Bengaluru, India",
-      role: "Senior Data Scientist",
-      dates: "Feb 2021 – May 2023",
+      company: "MITACS",
+      location: "Toronto, Canada",
+      role: "AI Research and Development Intern",
+      dates: "Jul 2022 – Nov 2022",
       bullets: [
-        "Demand Forecasting (CPG): Developed ML-driven forecasting models, improving accuracy by 10% and saving $500K annually in inventory holding costs.",
-        "Enterprise Data Service Workbench (FinServ): Built an interactive RFP automation platform, boosting efficiency by 50%.",
-        "Client Cohort Analysis: Designed segmentation models, driving a 10% increase in RFP win-rate and $500K extra revenue per quarter.",
+        "Developed machine learning solutions for academic research projects, focusing on predictive analytics and model performance optimization.",
+        "Preprocessed and transformed large datasets using Python and Excel, supporting high-quality data pipelines for AI research.",
+        "Collaborated with PhD researchers to build data-driven insights that contributed to innovation in AI applications.",
       ],
       recognition:
-        "Earned Customer Excellence & Innovation Award for delivering a full-fledged RFP automation data product and achieving fast-track promotion to Senior Data Scientist.",
+        "Awarded Best Project Presentation Award for research on 'AI in Software Engineering' from Tier 1 research group at Queen's University, Canada.",
       techStack:
-        "Python, R, Statistical Modeling, Flask, JavaScript, Vue.js, HTML, CSS, Tableau, PowerBI.",
-    },
-    {
-      logo: "/logos/ZS_logo.JPG",
-      company: "ZS ASSOCIATES INDIA PRIVATE LIMITED",
-      location: "Pune, India",
-      role: "Decision Analytics Associate",
-      dates: "Jan 2020 – Jan 2021",
-      bullets: [
-        "Survival Analysis (Life Sciences): Built models predicting therapy switches, reducing switch rates by 20%.",
-        "New Patient Adoption Research: Developed ML models to optimize sales targeting, cutting outreach costs by 30% and generating an estimated $1M in revenue.",
-        "Market Mix Modelling: Automated regression frameworks, slashing model build time to 4 weeks and improving marketing ROI by 15%.",
-      ],
-      recognition:
-        "Awarded Best Associate in Advanced Analytics and recognized as Best Performer in company-wide analytics boot camp.",
-      techStack:
-        "Python, R, Statistical Modelling, Advanced Excel, GIT, MS PowerPoint, Domino Cloud.",
+        "Python, Excel, Predictive Analytics, Machine Learning, Data Processing.",
     },
   ];
 

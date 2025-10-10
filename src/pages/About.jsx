@@ -37,25 +37,13 @@ export default function About() {
           Personal & Professional Backdrop
         </h3>
         <p>
-          My roots trace back to a small town in India, where I was among the
-          few granted access to quality education from primary through
-          undergraduate levels. From dreaming of being a bus driver to serving
-          as a student leader, my desire to influence and contribute to society
-          has been unwavering. Venturing into uncharted territories with a
-          positive outlook has defined my path.
+          I'm a dedicated Data Science graduate student with a profound enthusiasm for Artificial Intelligence, Machine Learning, and data-driven innovation. My journey spans across Python development, SQL database management, and advanced data visualization using Tableau and Power BI.
         </p>
         <p>
-          Within one year of starting my Data Science journey, I transitioned
-          from an analyst to a Data Scientist and AI/ML Engineer, building
-          small-scale data products. A pivotal moment was earning a spot in
-          IIT Madras’s pioneering online BS in Data Science & Programming,
-          which led to roles at Incedo and Tredence.
+          With hands-on experience in computer vision, natural language processing, and predictive analytics, I thrive on transforming complex datasets into meaningful insights that drive business decisions and technological advancement.
         </p>
         <p>
-          Beyond work, I volunteered as a bus driver to help those without
-          transport access, especially to hospitals. I’ve also begun scripting
-          intraday trading strategies, blending my domain knowledge in wealth
-          management with automated order execution across broker platforms.
+          My strong interest in research and commitment to continuous learning drives me to explore innovative solutions that bridge the gap between theoretical knowledge and practical applications in the ever-evolving field of AI and data science.
         </p>
       </section>
 

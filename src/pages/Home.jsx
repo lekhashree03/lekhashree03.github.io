@@ -66,7 +66,7 @@ export default function Home() {
               <h3 className="text-lg font-semibold">MS Ramaiah Institute of Technology</h3>
               <p className="italic">BE in Electronics</p>
               <p className="text-sm font-medium">GPA: 3.75 / 4.0</p>
-              <p className="text-sm text-gray-600">Bangalore, KA, India • Jul 2019 - May 2023</p>
+              <p className="text-sm text-gray-600">Bengaluru, KA, India • Jul 2019 - May 2023</p>
             </div>
           </Card>
         </div>
@@ -104,7 +104,7 @@ export default function Home() {
             <h3 className="text-lg font-semibold mb-2">Awards & Recognition</h3>
             <ul className="list-disc ml-6 space-y-2 text-gray-800">
               <li>Best Project Presentation Award for research on AI in Software Engineering from Tier 1 research group at Queens University, Canada</li>
-              <li>Best Project Award in final year project exhibition</li>
+              <li>Best Project Award in final year project exhibition at MS Ramaiah Institute of Technology, Bengaluru</li>
             </ul>
           </div>
         </div>

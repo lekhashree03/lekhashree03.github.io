@@ -27,16 +27,9 @@ export default function Home() {
       >
         <div className="absolute inset-0 bg-black/40" />
         <div className="relative flex flex-col items-center justify-center h-full text-white">
-          <img
-            src={`${import.meta.env.BASE_URL}profile.jpg`}
-            alt="Lekhashree"
-            className="w-40 h-40 rounded-full mb-4 ring-4 ring-white object-cover"
-          />
-          {/* Animated name */}
-          <Typewriter text="Lekhashree Honnavalli Jayarama" speed={120} />
-          <p className="text-xl mb-4">
-            MS in Data Science
-          </p>
+          {/* Animated name (moved above degree) */}
+          <Typewriter text="Lekhashree Honnavalli Jayarama" speed={120} className="text-4xl font-bold mb-2 text-center" />
+          <p className="text-xl mb-4">MS in Data Science</p>
           <p className="italic mb-6">Detail-oriented Data Science & AI Engineer</p>
 
           {/* Download Resume button */}

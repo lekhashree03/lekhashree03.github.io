@@ -83,17 +83,23 @@ export default function Home() {
             <h3 className="text-lg font-semibold mb-2">Publications</h3>
             <ul className="list-disc ml-6 space-y-2 text-gray-800">
               <li>
-                <strong>Application of Wireless Sensor Networks for Advancements in Non-Intrusive Precision Beekeeping</strong>
+                <a href="https://ieeexplore.ieee.org/document/9915828" className="hover:text-blue-600">
+                  <strong>Application of Wireless Sensor Networks for Advancements in Non-Intrusive Precision Beekeeping</strong>
+                </a>
                 <br />
                 <span className="text-sm text-gray-600">International Conference on Data Science and Information System (ICDSIS), Oct 2022 - IEEE Xplore</span>
               </li>
               <li>
-                <strong>Application of machine learning and deep learning models in the supervision of apiculture</strong>
+                <a href="https://informaticsjournals.co.in/index.php/jmmf/article/view/47319" className="hover:text-blue-600">
+                  <strong>Application of machine learning and deep learning models in the supervision of apiculture</strong>
+                </a>
                 <br />
                 <span className="text-sm text-gray-600">International Conference on Applied Research in Engineering Sciences, Nov 2022 - ICARES</span>
               </li>
               <li>
-                <strong>Violence detection in drone surveillance videos</strong>
+                <a href="https://link.springer.com/chapter/10.1007/978-981-99-0838-7_60" className="hover:text-blue-600">
+                  <strong>Violence detection in drone surveillance videos</strong>
+                </a>
                 <br />
                 <span className="text-sm text-gray-600">International Conference on Smart Trends for Information Technology and Computer Communications, 2023 - SmartCom</span>
               </li>
